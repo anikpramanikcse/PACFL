@@ -38,7 +38,7 @@ template = "Algorithm {}, Clients {}, Dataset {}, Model {}, Non-IID {}, Threshol
 s = template.format(args.alg, args.num_users, args.dataset, args.model, args.partition, args.cluster_alpha, args.n_basis, args.linkage, args.lr, args.local_ep, args.rounds, args.local_ep, args.frac)
 
 print(s)
-
+#hello
 print(str(args))
 ##################################### Data partitioning section 
 args.local_view = True
