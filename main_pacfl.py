@@ -210,6 +210,8 @@ for i in range(args.num_users):
 clients = []
 U_clients = []
 
+print(traindata_cls_ratio)
+
 K = args.n_basis
 #K = 5
 for idx in range(args.num_users):
